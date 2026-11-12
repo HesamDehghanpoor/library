@@ -1,0 +1,68 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: vazir;
+  src: url("./Vazirmatn-Regular.ttf");
+}
+
+body {
+  background: linear-gradient(to left, #333, #444);
+  height: 100dvh;
+  color: white;
+  font-family: vazir;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: fixed;
+    z-index: 10;
+    right: 0;
+    left: 0;
+    bottom: 30px;
+    margin: auto;
+    background: rgb(224, 224, 224);
+    width: 17.5rem;
+    padding: 10px 0;
+    border-radius: 10px;
+}
+
+.list li a{
+    transition: all 0.2s;
+}
+
+.list li a:hover{
+    border-bottom: 4px solid rgb(147, 146, 146);
+}
+
+.box {
+  height: 100dvh;
+  padding: 30px;
+}
+
+.box .title {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.Cdn-library {
+  padding: 0 0.8rem;
+}
